@@ -36,6 +36,7 @@ We are running hypothesis test to see the effect of recession on housing prices 
     <li>Next we need to find recession start and recession bottom. A recession starts with two consecutive quarters of GDP decline and ends with two consecutive quarters of GDP rise. A recession bottom is the quarter with lowest GDP during recession period. To find the recession period, GDP data from Bureau of Economic Analysis, US Department of Commerce is used.
     <li>The houses in the housing data need to be separated into two categories; university towns and non-university towns and to do this a list of university towns is used.
     <li>Once the housing data is converted to quarters and we know the effect of recession on the housing prices in terms of price ratio we will divide the housing data into university towns and non-university towns to run hypothesis test on these two groups. The hypothesis test will show if the recession has affected the university towns and non-university towns in the same way. 
-        
+</ol>      
+
 ## Techonologies
 Python, Pandas, Jupyter Notebooks
