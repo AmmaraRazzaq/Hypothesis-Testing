@@ -28,6 +28,9 @@ The data set consists of 10k+ rows.
 * A _recession_ is defined as starting with two consecutive quarters of GDP decline, and ending with two consecutive quarters of GDP growth.
 * A _recession bottom_ is the quarter within a recession which had the lowest GDP.
 
+## Techonologies
+Python, Pandas, Jupyter Notebooks
+
 # Methodology
 
 We are running hypothesis test to see the effect of recession on housing prices in university towns and non-university towns. To implement the hypothesis testing, following steps will be followed.
@@ -38,5 +41,8 @@ We are running hypothesis test to see the effect of recession on housing prices 
     <li>Once the housing data is converted to quarters and we know the effect of recession on the housing prices in terms of price ratio we will divide the housing data into university towns and non-university towns to run hypothesis test on these two groups. The hypothesis test will show if the recession has affected the university towns and non-university towns in the same way. 
 </ol>      
 
-## Techonologies
-Python, Pandas, Jupyter Notebooks
+# Results
+
+**Hypothesis 1:** p>>>0.01 which means there is a strong evidence to not reject the NULL hypothesis. Hence, there is a great probability that recession has not affected mean housing prices in university towns.
+
+**Hypothesis 2:** Since p is less than 0.01, there is a strong evidence to reject the NULL hypothesis. Hence, we can say that there is strong probabaility that our original hypothesis is true. Which means the recession has affected mean housing prices of university towns differently than non-university towns. If we compare the mean of price ratio for both town categories, we will see that prices of university towns are less affected than non-university towns.
